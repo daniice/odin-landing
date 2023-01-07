@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.signup {
+    background-color: #1f2937;
+    flex: 1;
+    display: flex;
+}
+
+.signuptext {
+    display: flex;
+}
+
+.signuphead {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.signupsub {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3883f6;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+}
+
+.midhead {
+    font-weight: extra-bold;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.midimg {
+    display: flex;
+}
+
+.midimgs {
+    border-color: #3883f6;
+    width:
+    height:
+}
+
+.imgtext {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.words {
+
+}
+
+.author {
+
+}
+
+.signup2 {
+
+}
+
+footer {
+
+}
