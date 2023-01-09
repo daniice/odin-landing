@@ -4,10 +4,18 @@ body {
     font-family: 'Roboto', sans-serif;;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
 }
 
 header {
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .logo {
@@ -21,6 +29,7 @@ ul {
     padding: 0;
     display: flex;
     flex-direction: row;
+    gap: 16px;
 }
 
 a {
@@ -29,14 +38,23 @@ a {
     font-size: 18px;
 }
 
-.signup {
-    background-color: #1f2937;
+.content {
     flex: 1;
     display: flex;
+    flex-direction: column;
+}
+
+.signup {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 300px;
 }
 
 .signuptext {
     display: flex;
+    flex-direction: column;
 }
 
 .signuphead {
@@ -50,13 +68,26 @@ a {
     font-size: 18px;
 }
 
+.signupbutton {
+    border-radius: 4px;
+}
+
 button {
     background-color: #3883f6;
+    border-radius: 4px;
+}
+
+.signupimg {
+    width: 300px;
+    height: 200px;
 }
 
 .mid {
     display: flex;
     flex-direction: column;
+    flex-basis: 300px;
+    justify-content: center;
+    align-items: center;
 }
 
 .midhead {
@@ -71,8 +102,10 @@ button {
 
 .midimgs {
     border-color: #3883f6;
-    width:
-    height:
+    border: 4px;
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
 }
 
 .imgtext {
@@ -81,24 +114,63 @@ button {
 }
 
 .quote {
+    height: 600px;
     background-color: #e5e7eb;
     color: #1f2937;
     display: flex;
     flex-direction: column;
+    flex-basis: 300px;
+    justify-content: center;
+    align-items: center;
 }
 
 .words {
-
+    font-weight: 900;
+    font-style: italic;
+    font-size: 36px;
 }
 
 .author {
-
+    font-weight: bold;
 }
 
 .signup2 {
+display: flex;
+margin: 300px, 100px;
+flex-basis: 100px;
+justify-content: center;
+    align-items: center;
+    background-color: #3883f6;
+    margin: 100px;
+}
 
+.signup2words {
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+}
+
+.signup2wordshead {
+font-weight: bold;
+font-size: 24px;
+}
+
+.signup2wordssub {
+font-size: 12px;
+}
+
+.signup2button {
+    border: #e5e7eb;
+    height: 16px;
+    color: #e5e7eb;
 }
 
 footer {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    flex-shrink: 0;
+    background-color: #1f2937;
+    color: #e5e7eb;
 }
