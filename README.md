@@ -1,2 +1,2 @@
 # odin-landing
-Very proud of this Snowy Cupcakaria Vortex. Gained a lot of confidence in resizing and resizing images and doing font things and importing font things. Not much purpose to it other than that. Click the links!
+Very proud of this Snowy Cupcakaria Vortex. Gained a lot of confidence in resizing things and resizing images and doing font things and importing font things. Not much purpose to it other than that. Click the links!
